@@ -18,3 +18,12 @@ article ul li a{
     text-decoration: none;
     color: black;
 }
+
+nav ul li:hover{
+    background-color: lightblue;
+    padding: 5px;
+    cursor: pointer;
+}
+#aktualis{
+    background-color: lightcoral;
+}

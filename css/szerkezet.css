@@ -1,0 +1,28 @@
+main{
+    display: grid;
+    max-width: 1000px;
+    grid-template-areas:"h h h h"
+                        "n n n n"
+                        "as as ar ar"
+                        "f f f f"
+                        ;
+}
+header{
+    grid-area: h ;
+}
+
+nav{
+    grid-area: n;
+}
+
+article{
+    grid-area: ar ;
+}
+
+aside{
+    width: 200px;
+    grid-area: as;
+}
+footer{
+    grid-area: f;
+}
