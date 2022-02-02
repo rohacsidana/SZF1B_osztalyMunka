@@ -1,4 +1,10 @@
+
+*{
+    box-sizing: border-box;
+}
+
 main {
+    margin: auto;
     display: grid;
     max-width: 1000px;
     grid-template-areas: "h h h h" "n n n n" "as as ar ar" "f f f f";
@@ -21,7 +27,14 @@ aside {
     grid-area: as;
 }
 
-footer {
+
+aside img{
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+footer{
     grid-area: f;
 }
 
@@ -30,7 +43,7 @@ footer {
         width: 100%;
         grid-template-areas: "h" "n" "as" "ar" "f";
     }
-    nav ul li {
-        grid-template-areas: 1fr;
+    nav ul {
+        grid-template-columns: 1fr;
     }
 }
