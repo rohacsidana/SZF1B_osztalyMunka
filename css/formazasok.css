@@ -10,7 +10,7 @@ h3 {
     font-size: 15px;
 }
 body {
-    background-image: url("SZF1B_osztalyMunka/kepek/hkep.jpg");
+    background-image: url(../kepek/hkep.jpg);
 }
 main {
     background-color: rgb(216, 182, 255);
