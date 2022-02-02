@@ -1,7 +1,5 @@
 
-*{
-    box-sizing: border-box;
-}
+
 
 main {
     margin: auto;
@@ -28,11 +26,7 @@ aside {
 }
 
 
-aside img{
-    max-width: 100%;
-    border: 1px solid black;
-    border-radius: 20px;
-}
+
 
 footer{
     grid-area: f;
