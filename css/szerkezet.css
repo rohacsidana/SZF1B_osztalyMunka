@@ -1,32 +1,34 @@
+
 *{
     box-sizing: border-box;
 }
 
-main{
+
+
+main {
+
     display: grid;
     max-width: 1000px;
-    grid-template-areas:"h h h h"
-                        "n n n n"
-                        "as as ar ar"
-                        "f f f f"
-                        ;
-}
-header{
-    grid-area: h ;
+    grid-template-areas: "h h h h" "n n n n" "as as ar ar" "f f f f";
 }
 
-nav{
+header {
+    grid-area: h;
+}
+
+nav {
     grid-area: n;
 }
 
-article{
-    grid-area: ar ;
+article {
+    grid-area: ar;
 }
 
-aside{
+aside {
     width: 200px;
     grid-area: as;
 }
+
 
 aside img{
     max-width: 100%;
@@ -36,4 +38,14 @@ aside img{
 
 footer{
     grid-area: f;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        width: 100%;
+        grid-template-areas: "h" "n" "as" "ar" "f";
+    }
+    nav ul li {
+        grid-template-areas: 1fr;
+    }
 }
