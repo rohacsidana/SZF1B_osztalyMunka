@@ -1,6 +1,3 @@
-
-
-
 main {
     margin: auto;
     display: grid;
@@ -25,19 +22,6 @@ aside {
     grid-area: as;
 }
 
-
-
-
-footer{
+footer {
     grid-area: f;
-}
-
-@media screen and (max-width: 700px) {
-    main {
-        width: 100%;
-        grid-template-areas: "h" "n" "as" "ar" "f";
-    }
-    nav ul {
-        grid-template-columns: 1fr;
-    }
 }
