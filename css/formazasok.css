@@ -9,4 +9,17 @@ h1 {
 h3 {
     font-size: 15px;
 }
-
+body {
+    background-image: url("SZF1B_osztalyMunka/kepek/hkep.jpg");
+}
+main {
+    background-color: rgb(216, 182, 255);
+}
+main,
+header,
+nav,
+article,
+aside,
+footer {
+    padding: 10p;
+}
