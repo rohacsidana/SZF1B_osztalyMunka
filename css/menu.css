@@ -1,0 +1,8 @@
+nav ul li:hover{
+    background-color: lightblue;
+    padding: 5px;
+    cursor: pointer;
+}
+#aktualis{
+    background-color: lightcoral;
+}
