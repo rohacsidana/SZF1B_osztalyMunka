@@ -30,7 +30,7 @@ footer {
         width: 100%;
         grid-template-areas: "h" "n" "as" "ar" "f";
     }
-    nav ul li {
-        grid-template-areas: 1fr;
+    nav ul {
+        grid-template-columns: 1fr;
     }
 }
